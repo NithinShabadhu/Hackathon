@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --black: rgb(13, 13, 13, 0.9);
+    --light-black: rgb(13, 13, 13, 0.3);
+    --mild-black: #0d0d0d;
+    --pure-black: rgb(0, 0, 0);
+    --white: rgb(255, 255, 255);
+}
+
+.search-faq {
+    height: 300px;
+    width: 100%;
+    margin-top: 2px;
+    background-color: var(--black);
+}
+
+.search-faq h3 {
+    font-size: 1.5em;
+    color: var(--white);
+    padding: 1em;
+}
+
+.search-faq form {
+    margin-left: 25em;
+}
+
+.search-faq input[type=text] {
+    width: 30rem;
+    height: 3rem;
+}
+
+.search-faq button {
+    width: 5rem;
+    height: 3rem;
+    background-color: cadetblue;
+    border: none;
+    color: white;
+}
+
+.categories {
+    width: 100%;
+}
+
+.categories h2 {
+    font-size: 2em;
+    margin: 1em;
+    text-align: center;
+}
+
+.categories h3 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.cooler-category {
+    width: 33.33%;
+    float: left;
+}
+
+.intro-faq {
+    clear: both;
+    text-align: center;
+}
+
+.intro-faq h3 {
+    font-size: 1.8em;
+}
+
+.intro-faq a {
+    text-decoration: none;
+    color: white;
+    background-color: cadetblue;
+    border: none;
+    padding: 0.8em;
+    margin-bottom: 100px;
+}
+
+.intro-faq a:hover {
+    opacity: 0.7;
+}
